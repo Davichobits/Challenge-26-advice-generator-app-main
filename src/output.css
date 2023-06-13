@@ -627,6 +627,11 @@ video {
   background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -792,4 +797,14 @@ video {
 .hover\:drop-shadow-\[0_0_16px_hsl\(150\2c 100\%\2c 66\%\)\]:hover {
   --tw-drop-shadow: drop-shadow(0 0 16px hsl(150,100%,66%));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 768px) {
+  .md\:left-\[237px\] {
+    left: 237px;
+  }
+
+  .md\:w-\[540px\] {
+    width: 540px;
+  }
 }
